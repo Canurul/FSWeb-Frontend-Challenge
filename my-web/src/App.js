@@ -1,5 +1,6 @@
 import ModeSwitch from "./components/ModeSwitch";
 import Introduction from "./components/Introduction";
+import Skills from "./components/Skills";
 
 export default function App() {
   return (
@@ -11,6 +12,8 @@ export default function App() {
       <main className="mx-auto mt-20 w-full">
         <Introduction/>
       </main>
+      <hr className="border-t border-gray-300 my-8" />
+      <Skills/>
       <hr className="border-t border-gray-300 my-8" />
       <footer></footer>
     </div>

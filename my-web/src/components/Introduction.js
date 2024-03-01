@@ -9,11 +9,13 @@ export default function Introduction() {
       style={{ margin: 0 }}
     >
       <div className="text-center md:text-left mb-6 md:mb-0 md:mr-6 w-full md:w-auto">
+        {/*
         <img
           src={logo2}
           alt="logo2"
           className="w-16 h-16 rounded-full mb-4 md:mb-0"
         />
+        */}
         <div>
           <h1 className="text-5xl mb-2 font-semibold Open_Sans">
             Hi! My name is Can<span>👋</span>
@@ -22,6 +24,7 @@ export default function Introduction() {
             I am a full-stack developer. <br />I can craft solid and scalable
             frontend products. Let's meet!
           </p>
+          <br></br>
           <div className="flex items-center space-x-4">
             <a
               href="https://www.linkedin.com/in/ömer-can-urul-266436167/"
