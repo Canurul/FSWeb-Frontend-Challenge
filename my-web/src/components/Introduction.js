@@ -1,6 +1,6 @@
 import { FaLinkedin, FaGithub } from "react-icons/fa";
 import logo from "../logos/mainPic.PNG";
-import logo2 from "../logos/dayiLogo.jpeg";
+//import logo2 from "../logos/dayiLogo.jpeg";
 
 export default function Introduction() {
   return (

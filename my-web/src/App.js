@@ -1,6 +1,7 @@
 import ModeSwitch from "./components/ModeSwitch";
 import Introduction from "./components/Introduction";
 import Skills from "./components/Skills";
+import Profile from './components/Profile';
 
 export default function App() {
   return (
@@ -15,7 +16,8 @@ export default function App() {
       <hr className="border-t border-gray-300 my-8" />
       <Skills/>
       <hr className="border-t border-gray-300 my-8" />
-      <footer></footer>
+      <Profile/>
+      <hr className="border-t border-gray-300 my-8" />
     </div>
   );
 }
